@@ -1,0 +1,84 @@
+p{
+  font-size: 10px;
+  color:red;
+}
+
+
+
+.site_wrapper {
+  width: 100%; }
+
+.inner-width {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+@media screen and (max-width: 768) {
+  .header .web_menu_area .web_menu {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0; }
+    .header .web_menu_area .web_menu .web_menu_list {
+      padding: 10px 0;
+      width: 665px;
+      margin: 0 auto; } }
+
+      .header {
+         }
+        .header .web_menu_area {
+          padding: 10px; }
+          .header .web_menu_area .logo_block {
+            float: left;
+            width: 100px;}
+            .header .web_menu_area .logo_block img {
+              width: 100%;
+              height: 60px;}
+          .header .web_menu_area .web_menu {
+            float: right;
+            margin-right: 30px; }
+            .header .web_menu_area .web_menu .web_menu_list {
+              padding: 18px 0; }
+              .header .web_menu_area .web_menu .web_menu_list .web_menu_item {
+                float: left;
+                list-style: none;
+                font-size: 15px;
+                border-right: 1px solid #c8c7cc; }
+                .header .web_menu_area .web_menu .web_menu_list .web_menu_item a {
+                  padding: 0 10px;
+                  color: #4a4a4a; }
+                  .header .web_menu_area .web_menu .web_menu_list .web_menu_item a:hover {
+                    color: #4a4a4a; }
+                .header .web_menu_area .web_menu .web_menu_list .web_menu_item:last-child {
+                  border-right: none; }
+          .header .web_menu_area .language {
+            float: right;
+            padding: 30px 0;
+            }
+        .header .navbar-default {
+          background: #fafafa;
+          background: -moz-linear-gradient(top, #fafafa 0%, #e9f2f8 100%);
+          background: -webkit-linear-gradient(top, #fafafa 0%, #e9f2f8 100%);
+          background: linear-gradient(to bottom, #fafafa 0%, #e9f2f8 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e9f2f8',GradientType=0 );
+          height: 90px;
+          border: none;
+          padding: 10px; }
+          .header .navbar-default .navbar-header .logo_img {
+            width: 200px;
+            padding-left: 10px; }
+            .header .navbar-default .navbar-header .logo_img img {
+              width: 100%; }
+        .header .navbar-nav {
+          padding: 10px 0;
+          font-size: 15px; }
+          .header .navbar-nav .menu_item a {
+            color: #4a4a4a; }
+            .header .navbar-nav .menu_item a:hover {
+              color: #4a4a4a; }
+        .header .navbar-fixed-top {
+          position: relative; }
+
+.clearAfter:after {
+  clear: both;
+  content: "";
+  display: table; }

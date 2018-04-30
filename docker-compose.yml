@@ -1,16 +1,7 @@
-php:
-  image: webdevops/php-apache-dev
-  container_name: CI
-  volumes:
-    - ./:/app
-  ports:
-    - "5566:80"
 mysql:
   image: mysql
-  container_name: mysql
+  container_name: CImysql
   ports:
     - "3306:3306"
-  volumes:
-    - ./data:/var/lib/mysql
   environment:
     MYSQL_ROOT_PASSWORD: 12345
